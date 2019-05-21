@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:900px;
+	margin:0px auto;
+	background-color:#4876FF;
+}
+header>img{
+	float:left;
+	width:900px;
+	height:auto;
+}
+nav{
+	clear:both;
+	height:30px;
+	background-color:#DFE0E9;
+}
+nav>ul{
+	float:left;
+	list-style:none;
+	
+}
+nav>div{
+	float:right;
+	text-decoration:none;
+}
+nav>ul>li{
+	
+	float:left;
+	padding:5px 20px;
+	border-right:#900 solid 1px;
+}
+nav>ul>li>a{
+	text-decoration:none;
+}
+nav>div>a{
+	text-decoration:none;
+}
+nav>ul>li#last{
+	border-right:none;
+}
+nav>ul>li:hover{
+	background-color:#15189F;
+}
+nav>ul>li:hover a{
+	color:#900;
+}
+
+
+article{
+	display:table-row;
+	
+}
+aside#left,aside#right,section{
+	display:table-cell;
+	vertical-align:top;
+}
+aside#left{
+	background-image:url("file:///D:/TranCongHau_web/Images/mau-xanh-duong.jpg");
+	padding-top:10px;
+	width:168px;
+}
+
+section{
+	width:586px;	
+	padding-top:10px;
+}
+marquee>div>img{
+	width:146px;
+	
+}
+aside#left>div>p{
+	font-weight:bold;
+	background-image:url("file:///D:/TranCongHau_web/Images/mauxanh.png");
+	font-size:14px;
+	padding:10px 0px;
+	color:#FFF;
+}
+aside#left>div>ul{
+	list-style:none;
+	text-align:center;
+	padding:10px 0px;
+	
+}
+aside#left>div{
+	border:#F98611 solid 2px;
+}
+aside#left>div>ul>li>a{
+	text-decoration:none;
+	color:#FFF;
+}
+aside#left>div>ul>li{
+	font-size:20px;
+	padding-top:5px;
+}
+aside#left>form{
+	margin-top:10px;
+	border:#F98611 solid 2px;
+	text-align:center;
+	padding:5px 0px;
+}
+
+aside#right{
+	background-image:url("file:///D:/TranCongHau_web/Images/mau-xanh-duong.jpg");
+	padding-top:10px;
+	width:146px;
+}
+aside#right>div>p{
+	font-weight:bold;
+	background-image:url("file:///D:/TranCongHau_web/Images/mauxanh.png");
+	font-size:14px;
+	padding:10px 0px;
+	color:#FFF;
+	text-align:center;
+}
+aside#right>div#taikhoan{
+	border:#F98611 solid 2px;
+}
+aside#right>div#taikhoan>form{
+	color:#FFF;
+	text-align:center;
+	margin:0px 10px;
+}
+
+
+aside#right>div#spmoi{
+	margin-top:10px;
+}
+aside#right>div#spmoi>marquee{
+	border:#F98611 solid 2px;
+	height:240px;
+	text-align:center;
+	color:#F60;
+}
+aside#right>div#spmoi>marquee>div>h1{
+	color:#FFF;
+}
+footer{
+	text-align:center;
+}
+footer>div#h1>img{
+	float:left;
+}
+footer>div#h2>img{
+	float:right;
+	}
+	
+.noidungfooter
+{
+	margin-top:7px;
+	font-size:17px;
+	margin-left:100px;
+	float:left
+}
+
+#sp1{
+	border-radius:10px;
+	width:250px;
+	float:left;
+	margin-left:7px;
+	background:#;
+	margin-bottom:5px;
+}
+#sp1>h1{
+	font-size:16px;
+	color:#6F0;
+}
+#gia{
+	text-decoration:line-through;
+}
+.noidung{
+	padding-left:10px;
+}
+
+.gioithieu{
+	text-indent:12px;
+	padding-left:5px;
+	text-align:justify;
+	padding-right:5px;
+	color:#CCC;
+}
+.khuyenmai{
+	border:5px ridge #666;
+	clear:both;
+	padding-bottom:30px;
+	margin:0px 5px;
+	
+}
+.tour>div>img{
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	float:left;
+	width:120px;
+	height:80px;
+}
+.lienhe>div>img{
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	float: left;
+	width:50px;
+	height:50px;
+}
+.lienhe{
+	margin-top:10px;
+	margin-bottom:10px;
+	clear:both;
+	border-bottom:2px dotted #666666;
+	padding-bottom:30px;
+
+}
+.tour{
+	margin-top:10px;
+	margin-bottom:10px;
+	clear:both;
+	border-bottom:2px dotted #666666;
+	padding-bottom:30px;
+}
+#tieude{
+	margin-bottom:10px;
+}
+#biquyet2{
+	margin-bottom:10px;
+	clear:both;
+}
+.biquyet2>div>img{
+	margin-left:10px;
+	margin-bottom:10px;
+	float:left;
+	width:90px;
+	height:80px;
+}
+.font{
+	color:#FFF;
+}
+.font h1{
+	color:#FF0;
+}
+#spmoi>marquee>div{
+	border-bottom:2px dotted #FFFF00;
+	
+}
